@@ -1,10 +1,13 @@
-function App() {
-    return (
+import Login from "./components/login/Login.jsx"
+function app(){
+    return(
         <>
-<h1>SISPARS</h1>
-<h2>teste</h2>
+        <h1>sispar</h1>
+        <Login/>
         </>
 
-    )
+    );
+
 
 }
+export default app;
